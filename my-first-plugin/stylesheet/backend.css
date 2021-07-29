@@ -1,0 +1,48 @@
+
+.button{
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.input {
+  width: 100%;
+  font-size: 16px;
+  font-size: max(16px, 1em);
+  font-family: inherit;
+  padding: 0.25em 0.5em;
+  background-color: black;
+  border: 2px solid var(--input-border);
+  border-radius: 4px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+
+}
+
+label {
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
+
+.success {
+  color: green;
+  font-weight: bold;
+}
+
+.description {
+  color: black;
+  font-weight: bold;
+  font-style: italic;
+}

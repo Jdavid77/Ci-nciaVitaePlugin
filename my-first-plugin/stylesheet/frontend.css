@@ -1,0 +1,160 @@
+.book-chapter {
+	background-color: #008bd2;
+	color: #fff; 
+	display: inline-block; 
+	padding: 3px 4px; 
+	margin-left: 5px; 
+	font-size: 10px; 
+	font-weight: bold; 
+	line-height: 1; 
+	border-radius: 2px; 
+	box-shadow: inset 0 -1px 0 rgba(0,0,0,0.12);
+}
+
+.journal-article {
+	background-color: red;
+	color: #fff;
+	display: inline-block;
+	padding: 3px 4px;
+	margin-left: 5px;
+	font-size: 10px;
+	font-weight: bold;
+	line-height: 1;
+	border-radius: 2px;
+	box-shadow: inset 0 -1px 0 rgba(0,0,0,0.12);
+}
+
+.edited-book {
+	background-color: black;
+	color: #fff;
+	display: inline-block;
+	padding: 3px 4px;
+	margin-left: 5px;
+	font-size: 10px;
+	font-weight: bold;
+	line-height: 1;
+	border-radius: 2px;
+	box-shadow: inset 0 -1px 0 rgba(0,0,0,0.12);
+}
+
+.book {
+	background-color: green;
+	color: #fff;
+	display: inline-block;
+	padding: 3px 4px;
+	margin-left: 5px;
+	font-size: 10px;
+	font-weight: bold;
+	line-height: 1;
+	border-radius: 2px;
+	box-shadow: inset 0 -1px 0 rgba(0,0,0,0.12);
+}
+
+.conference-paper {
+	background-color: darkorange;
+	color: #fff;
+	display: inline-block;
+	padding: 3px 4px;
+	margin-left: 5px;
+	font-size: 10px;
+	font-weight: bold;
+	line-height: 1;
+	border-radius: 2px;
+	box-shadow: inset 0 -1px 0 rgba(0,0,0,0.12);
+}
+
+.conference-poster {
+	background-color: purple;
+	color: #fff;
+	display: inline-block;
+	padding: 3px 4px;
+	margin-left: 5px;
+	font-size: 10px;
+	font-weight: bold;
+	line-height: 1;
+	border-radius: 2px;
+	box-shadow: inset 0 -1px 0 rgba(0,0,0,0.12);
+}
+
+.publication_list {
+	width:100%; 
+	border:none; 
+	border-spacing: 0;
+}
+
+.publication_info{
+	border-bottom:1px solid silver; 
+	vertical-align:top; 
+	padding:8px;
+}
+
+.publication_author{
+	font-size:small; 
+	margin-bottom:1px; 
+	margin-top:1px;
+}
+
+.publication_title{
+	font-size:small; 
+	font-weight:bold; 
+	margin-top:1px; 
+	margin-bottom:1px;
+}
+
+.publication_additional{
+	font-size:small; 
+	margin-top:1px; 
+	margin-bottom:1px;
+}
+
+.publication_link{
+	font-size:small;
+	margin-top:1px;
+	margin-bottom:1px;
+	text-decoration: underline;
+}
+
+.div-filter {
+	background: rgb(0,3,19);
+	background: radial-gradient(circle, rgba(0,3,19,0.8550770650056898) 15%, rgba(65,20,42,0.9587185215883228) 60%, rgba(242,120,75,0.950315160243785) 100%);
+	border-color: white;
+	border-style: solid;
+	padding: 25px;
+	text-align: center;
+	border-radius: 25px;
+	box-shadow: 0 0 1em black;
+
+}
+
+input[type=text] {
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	line-height: 10%;
+}
+select {
+	padding: 5px;
+}
+
+.label-filter{
+	color:white;
+	font-weight: bold;
+}
+
+.label-title{
+	color:white;
+	font-family: "Lucida Handwriting";
+	font-weight: bold;
+}
+
+input[type=submit] {
+	width: 150px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	line-height: 100%;
+}
